@@ -17,5 +17,8 @@ make install
 Then, run the following command to initialize the workspace and apply the sample configuration.
 
 ```shell
-terraform init && terraform apply
+export TF_LOG=VERBOSE
+cd examples && terraform init && terraform apply
 ```
+
+[More](https://developer.hashicorp.com/terraform/plugin)
